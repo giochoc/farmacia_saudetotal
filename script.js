@@ -1,6 +1,6 @@
 // Array com 100 produtos simulados (10 por categoria, conforme requisitos do projeto)
 const productsData = [
-    // Analgésicos e Anti-inflamatórios (10 produtos) [cite: 15]
+    // Analgésicos e Anti-inflamatórios (10 produtos)
     { id: 1, name: "Ibuprofeno 400mg", category: "analgesicos", icon: "pills", description: "Alívio rápido para dor e febre." },
     { id: 2, name: "Paracetamol 750mg", category: "analgesicos", icon: "pills", description: "Indicado para dores leves a moderadas." },
     { id: 3, name: "Dipirona Sódica 500mg", category: "analgesicos", icon: "capsules", description: "Analgésico e antitérmico potente." },
@@ -12,7 +12,7 @@ const productsData = [
     { id: 9, name: "Dorflex", category: "analgesicos", icon: "capsules", description: "Relaxante muscular e analgésico." },
     { id: 10, name: "Cataflam", category: "analgesicos", icon: "pills", description: "Alivia a dor e a inflamação." },
     
-    // Antibióticos (10 produtos) [cite: 16]
+    // Antibióticos (10 produtos)
     { id: 11, name: "Amoxicilina 500mg", category: "antibioticos", icon: "syringe", description: "Para tratamento de infecções bacterianas." },
     { id: 12, name: "Azitromicina", category: "antibioticos", icon: "syringe", description: "Antibiótico de amplo espectro, uso oral." },
     { id: 13, name: "Cefalexina", category: "antibioticos", icon: "syringe", description: "Indicado para infecções respiratórias e de pele." },
@@ -24,7 +24,7 @@ const productsData = [
     { id: 19, name: "Penicilina G Benzatina", category: "antibioticos", icon: "syringe", description: "Antibiótico injetável de longa duração." },
     { id: 20, name: "Clarinsan", category: "antibioticos", icon: "syringe", description: "Para infecções do sistema respiratório." },
     
-    // Medicamentos para Pressão (10 produtos) [cite: 17]
+    // Medicamentos para Pressão (10 produtos)
     { id: 21, name: "Captopril 25mg", category: "pressao", icon: "heart", description: "Inibidor da ECA para controle da hipertensão." },
     { id: 22, name: "Losartana 50mg", category: "pressao", icon: "heart", description: "Bloqueador de receptores de angiotensina II." },
     { id: 23, name: "Amlodipino", category: "pressao", icon: "heart", description: "Bloqueador dos canais de cálcio." },
@@ -36,7 +36,7 @@ const productsData = [
     { id: 29, name: "Clonidina", category: "pressao", icon: "heart", description: "Usada para tratar hipertensão resistente." },
     { id: 30, name: "Furosemida", category: "pressao", icon: "heart", description: "Diurético de alça potente." },
     
-    // Medicamentos para Diabetes (10 produtos) [cite: 18]
+    // Medicamentos para Diabetes (10 produtos)
     { id: 31, name: "Metformina 500mg", category: "diabetes", icon: "syringe", description: "Controla a glicose em diabéticos tipo 2." },
     { id: 32, name: "Glibenclamida", category: "diabetes", icon: "syringe", description: "Estimula a produção de insulina." },
     { id: 33, name: "Insulina NPH (Caneta)", category: "diabetes", icon: "syringe", description: "Insulina de ação intermediária." },
@@ -48,7 +48,7 @@ const productsData = [
     { id: 39, name: "Acarbose", category: "diabetes", icon: "syringe", description: "Retarda a absorção de carboidratos." },
     { id: 40, name: "Glucerna Pó", category: "diabetes", icon: "flask", description: "Suplemento alimentar para controle glicêmico." },
     
-    // Medicamentos para Estômago (10 produtos) [cite: 19]
+    // Medicamentos para Estômago (10 produtos)
     { id: 41, name: "Omeprazol 20mg", category: "estomago", icon: "tablets", description: "Inibidor da bomba de prótons (IBP) para úlceras e refluxo." },
     { id: 42, name: "Ranitidina", category: "estomago", icon: "tablets", description: "Bloqueador H2 (uso restrito)." },
     { id: 43, name: "Pantoprazol", category: "estomago", icon: "tablets", description: "Reduz a produção de ácido estomacal." },
@@ -60,7 +60,7 @@ const productsData = [
     { id: 49, name: "Sertalina", category: "estomago", icon: "tablets", description: "Protetor gástrico para uso específico." },
     { id: 50, name: "Miralax", category: "estomago", icon: "prescription-bottle", description: "Laxante osmótico." },
     
-    // Vitaminas e Suplementos (10 produtos) [cite: 20]
+    // Vitaminas e Suplementos (10 produtos)
     { id: 51, name: "Vitamina C 1000mg", category: "vitaminas", icon: "capsules", description: "Reforça o sistema imunológico." },
     { id: 52, name: "Complexo B", category: "vitaminas", icon: "capsules", description: "Auxilia no metabolismo energético." },
     { id: 53, name: "Ômega 3", category: "vitaminas", icon: "fish", description: "Saúde cardiovascular e cerebral." },
@@ -72,7 +72,7 @@ const productsData = [
     { id: 59, name: "Ferro Quelato", category: "vitaminas", icon: "capsules", description: "Para tratamento de anemia." },
     { id: 60, name: "Magnésio Dimalato", category: "vitaminas", icon: "capsules", description: "Auxilia na função muscular e nervosa." },
     
-    // Medicamentos Respiratórios (10 produtos) [cite: 21]
+    // Medicamentos Respiratórios (10 produtos)
     { id: 61, name: "Salbutamol Spray", category: "respiratorios", icon: "lungs", description: "Broncodilatador para asma." },
     { id: 62, name: "Budesonida (Inalador)", category: "respiratorios", icon: "lungs", description: "Corticosteroide inalatório para controle." },
     { id: 63, name: "Berotec", category: "respiratorios", icon: "lungs", description: "Para alívio de crise de bronquite." },
@@ -84,7 +84,7 @@ const productsData = [
     { id: 69, name: "Sorine", category: "respiratorios", icon: "lungs", description: "Descongestionante nasal." },
     { id: 70, name: "Nasonex", category: "respiratorios", icon: "lungs", description: "Spray nasal para alergias." },
 
-    // Medicamentos Neurológicos (10 produtos) [cite: 22]
+    // Medicamentos Neurológicos (10 produtos)
     { id: 71, name: "Rivotril (Clonazepam)", category: "neurologicos", icon: "brain", description: "Tratamento de ansiedade e epilepsia." },
     { id: 72, name: "Fluoxetina", category: "neurologicos", icon: "brain", description: "Antidepressivo (ISRS)." },
     { id: 73, name: "Sertralina", category: "neurologicos", icon: "brain", description: "Para depressão, ansiedade e TOC." },
@@ -96,7 +96,7 @@ const productsData = [
     { id: 79, name: "Zolpidem", category: "neurologicos", icon: "brain", description: "Indutor do sono (Hipnótico)." },
     { id: 80, name: "Tegretol", category: "neurologicos", icon: "brain", description: "Para convulsões e dor neuropática." },
 
-    // Medicamentos Dermatológicos (10 produtos) [cite: 23]
+    // Medicamentos Dermatológicos (10 produtos)
     { id: 81, name: "Hipoglós Pomada", category: "dermatologicos", icon: "hand-sparkles", description: "Creme para assaduras e irritações de pele." },
     { id: 82, name: "Creme Cicatrizante", category: "dermatologicos", icon: "hand-sparkles", description: "Acelera a regeneração da pele." },
     { id: 83, name: "Cetoconazol Shampoo", category: "dermatologicos", icon: "hand-sparkles", description: "Tratamento para caspa e dermatite seborreica." },
@@ -108,7 +108,7 @@ const productsData = [
     { id: 89, name: "Bepantol Derma", category: "dermatologicos", icon: "hand-sparkles", description: "Hidratação intensa para lábios e áreas secas." },
     { id: 90, name: "Sulfadiazina de Prata", category: "dermatologicos", icon: "hand-sparkles", description: "Para tratamento de queimaduras." },
 
-    // Medicamentos Ginecológicos (10 produtos) [cite: 24]
+    // Medicamentos Ginecológicos (10 produtos)
     { id: 91, name: "Fluconazol 150mg", category: "ginecologicos", icon: "venus", description: "Tratamento de candidíase vaginal." },
     { id: 92, name: "Miconazol Óvulo", category: "ginecologicos", icon: "venus", description: "Antifúngico vaginal." },
     { id: 93, name: "Ácido Fólico", category: "ginecologicos", icon: "venus", description: "Suplemento essencial na gestação." },
@@ -187,7 +187,7 @@ function filterAndSearchProducts() {
         // 2. Busca por nome (em tempo real)
         const matchesSearch = product.name.toLowerCase().includes(searchTerm);
         
-        // Retorna apenas se corresponderem ao filtro E à busca [cite: 57]
+        // Retorna apenas se corresponderem ao filtro E à busca
         return matchesCategory && matchesSearch;
     });
 
@@ -201,12 +201,12 @@ function filterAndSearchProducts() {
 function scrollToSection(sectionId) {
     const section = document.getElementById(sectionId);
     if (section) {
-        section.scrollIntoView({ behavior: 'smooth' }); // Rolagem suave [cite: 63]
+        section.scrollIntoView({ behavior: 'smooth' }); // Rolagem suave
     }
 }
 
 
-// Adiciona Listeners para busca e filtro [cite: 52, 56]
+// Adiciona Listeners para busca e filtro
 document.addEventListener('DOMContentLoaded', () => {
     // Renderiza todos os produtos ao carregar a página
     renderProducts(productsData); 

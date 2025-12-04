@@ -1,0 +1,103 @@
+/*
+    Atenção: Este é um exemplo simplificado,
+    o seu arquivo real de estilos deve ser colocado aqui.
+    O ponto crucial é que ele deve se chamar **styles.css**
+    e estar na mesma pasta do index.html e script.js
+*/
+
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header e Navegação */
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #17a2b8; /* Cor principal */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    margin-right: 8px;
+    color: #dc3545; /* Cor de destaque */
+}
+
+/* Estilos de Botões e Cards de Produtos (Crucial para visualização) */
+.product-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #1e7e34;
+}
+
+/* Estilos para a seção Hero (topo) */
+.hero {
+    background-color: #e9f7f8;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    color: #17a2b8;
+    margin-bottom: 20px;
+}
+
+/* Garantindo que o conteúdo HTML apareça com alguma formatação básica */
+section {
+    padding: 60px 0;
+}
